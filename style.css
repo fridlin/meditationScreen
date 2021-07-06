@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .time-select,
@@ -69,19 +69,20 @@
 .player-container svg {
   position: absolute;
   height: 50%;
-  top: 50%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
   pointer-events: none;
 }
 .player-container svg circle {
   transition: all 0.2s ease-in-out;
+ 
 }
 .time-display {
-  color: white;
+  color: rgb(214, 214, 200);
   position: absolute;
-  font-size: 50px;
-  bottom: 10%;
+  font-size: 45px;
+  bottom: 1%;
 }
 
 video {
